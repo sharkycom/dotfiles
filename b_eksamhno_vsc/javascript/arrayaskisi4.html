@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <h1> javascript arrays </h1>
+  <p id="demo"></p>
+  <script>
+  const products = [{ name: "Laptop", price: 1000 },
+    { name: "Mouse", price: 20 },
+    { name: "Keyboard", price: 50 }];
+ const doubled = products.map(function(p) {
+return p.price * 2; // διπλασιασμός τιμής
+});
+console.log(doubled); // [2000, 40, 100]
+</script>
+</body>
+</html>

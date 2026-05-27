@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <h1> javascript arrays </h1>
+  <p id="demo"></p>
+  <script>
+  const products = [{ name: "Laptop" },
+    { name: "Mouse" },
+    { name: "Keyboard"}];
+const upper = products.map(function(p) {
+
+return p.name.toUpperCase();
+
+});
+
+console.log(upper); // ["LAPTOP", "MOUSE", "KEYBOARD"]
+</script>
+</body>
+</html>
